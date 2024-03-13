@@ -1,5 +1,5 @@
-import { themes as prismThemes } from 'prism-react-renderer';
-import type { Config } from '@docusaurus/types';
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -70,7 +70,7 @@ const config: Config = {
                     position: 'left',
                     label: 'ctf-docker-template',
                 },
-                { to: '/blog', label: 'Blog', position: 'right' },
+                {to: '/blog', label: 'Blog', position: 'right'},
                 {
                     href: 'https://github.com/facebook/docusaurus',
                     label: 'GitHub',
@@ -85,25 +85,26 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
-                            to: '/docs/',
+                            label: 'ctf-docker-template',
+                            to: '/docs/ctf-docker-template',
                         },
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: '友情链接',
                     items: [
+
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'Hello-CTF',
+                            href: 'https://hello-ctf.com/',
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            label: 'Treasure House',
+                            href: 'https://treasure-house.randark.site/',
                         },
                         {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
+                            label: '不看探姬女装，你就没学过 CTF！',
+                            href: 'https://github.com/ProbiusOfficial/FittingRoom',
                         },
                     ],
                 },
